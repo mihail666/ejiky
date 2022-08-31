@@ -1,0 +1,30 @@
+.ejBtn {
+  position: relative;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: $subtitle2;
+  margin: 20px 0;
+  padding: 25px 115px;
+  background: #70908B;
+  box-shadow: 4px 4px 20px #ffffff, -8px -8px 20px #FFFFFF;
+  border-radius: 40px;
+  border: none;
+  z-index: 4;
+
+  &:hover {
+    background: linear-gradient(90.14deg, #B0D3CE -2.41%, #FFEDCE 99.79%);
+    /* iso */
+
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    color: $title;
+  }
+}
+@media(max-width:400px) {
+  .ejBtn{
+  font-size: 14px;
+}
+}
